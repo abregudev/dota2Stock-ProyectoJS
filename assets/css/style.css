@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container_main{
+    width: 800px;
+    margin: auto;
+    padding: 15px 20px 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    border-radius: 18px;
+    margin-top: 150px;
+}
+
+.buscador{
+    border: 4px solid #00000005;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 15px;
+}
+
+.filtrosContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 60px;
+   justify-content: space-around;
+}
+
+.valueFiltro{
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid #0000001c;
+}
+
+label {
+    font-weight: 600;
+}
+
+img{
+    border-radius: 13px;
+}
+
+.card-datos{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 25px 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+}
+
+.mostrar_datos{
+    margin-top: 20px;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heroe_name{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+}
+
+:root {
+    --color-primary: #03263a;
+    --color-secondary: orange;
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --gradient: linear-gradient(to right,  #350000, #b90404, #620000, #9d0000);
+}
